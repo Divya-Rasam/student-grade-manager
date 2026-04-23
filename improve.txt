@@ -1,0 +1,21 @@
+🔥 BEST IMPROVEMENT → toString() (very important)
+
+Instead of printing manually every time, we let the object print itself.
+
+👉 Add this inside Student class:
+@Override
+public String toString() {
+    return "Name: " + name +
+           "\nTotal: " + total +
+           "\nAverage: " + average +
+           "\nGrade: " + grade;
+}
+👉 Then replace printing with:
+for(Student s: students) {
+    System.out.println();
+    System.out.println(s);
+}
+
+💥 Cleaner
+💥 More professional
+💥 Used in real projects
